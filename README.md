@@ -40,8 +40,7 @@ The sidebar's width is _locked by default_ in Firefox. Unfortunately, the sideba
 
 ### 📝 Notes
 
-- You can find the canonical publication for the guide on my [Blog](https://miguelpimentel.do/unlock-firefox-sidebar/).  
-- I also have instructions in Spanish in this GitHub [Gist](https://gist.github.com/semanticdata/ee0bca4f3617241aa98da114653c0b08#file-instrucciones-md).
+- You can find the canonical publication for the guide on origin extension author [Blog](https://miguelpimentel.do/unlock-firefox-sidebar/). 
 
 ## ⚠ Disclaimer
 
