@@ -1,15 +1,18 @@
 {
   "manifest_version": 2,
-  "name": "ChatGPT in Sidebar",
-  "description": "Displays ChatGPT in the sidebar.",
-  "version": "1.0.4",
+  "name": "Yuan AI OpenWebUI in Sidebar",
+  "description": "Displays Yuan AI OpenWebUI in the sidebar.",
+  "version": "2.0.1",
   "background": {
     "scripts": ["src/background.js"]
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "{28b7b9b8-aab9-4034-8628-26d955bf7713}",
-      "strict_min_version": "100.0"
+      "id": "ai-sidebar@yuaner.tw",
+      "strict_min_version": "100.0",
+      "data_collection_permissions": {
+        "required": ["websiteContent"]
+      }
     }
   },
   "options_ui": {
@@ -18,30 +21,30 @@
   },
   "sidebar_action": {
     "default_icon": {
-      "16": "src/icons/chatgpt-16x16.png",
-      "32": "src/icons/chatgpt-32x32.png",
-      "192": "src/icons/chatgpt-192x192.png"
+      "16": "src/icons/favicon-16.png",
+      "32": "src/icons/favicon-32.png",
+      "192": "src/icons/favicon-192.png"
     },
-    "default_title": "ChatGPT",
+    "default_title": "Yuan AI OpenWebUI",
     "default_panel": "src/sidebar/panel.html",
     "browser_style": false
   },
   "icons": {
-    "16": "src/icons/chatgpt-16x16.png",
-    "32": "src/icons/chatgpt-32x32.png"
+    "16": "src/icons/favicon-16.png",
+    "32": "src/icons/favicon-32.png"
   },
   "commands": {
     "_execute_sidebar_action": {
       "suggested_key": {
         "default": "Alt+Shift+C"
       },
-      "description": "Toggle the ChatGPT sidebar."
+      "description": "Toggle the Yuan AI OpenWebUI sidebar."
     }
   },
   "browser_action": {
     "default_icon": {
-      "16": "src/icons/chatgpt-16x16.png",
-      "32": "src/icons/chatgpt-32x32.png"
+      "16": "src/icons/favicon-16.png",
+      "32": "src/icons/favicon-32.png"
     }
   }
 }
