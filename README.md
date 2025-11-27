@@ -1,12 +1,8 @@
 <h1><img src="src/icons/favicon.png" width="64" height="64" /> Yuan AI OpenWebUI in Sidebar</h1>
 
-![Mozilla Add-on](https://img.shields.io/amo/v/{28b7b9b8-aab9-4034-8628-26d955bf7713})
-![Add-on rating](https://img.shields.io/amo/rating/{28b7b9b8-aab9-4034-8628-26d955bf7713})
-![Add-on downloads](https://img.shields.io/amo/dw/{28b7b9b8-aab9-4034-8628-26d955bf7713})
-![Add-on users](https://img.shields.io/amo/users/{28b7b9b8-aab9-4034-8628-26d955bf7713})
-![License](https://img.shields.io/github/license/semanticdata/firefox-chatgpt-in-sidebar)
-
 Firefox extension to display Yuan AI OpenWebUI within the Firefox sidebar.
+
+![Screenshot](screenshot.png)
 
 <!-- [![Get the Addon](https://raw.githubusercontent.com/semanticdata/text-revealer-firefox-extension/master/firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/chatgpt-in-sidebar/) -->
 
